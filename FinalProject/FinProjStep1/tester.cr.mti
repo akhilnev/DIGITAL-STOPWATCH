@@ -1,0 +1,15 @@
+U:/CPRE281/FinalProject/FinProjStep1/seven_deg_decoder.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/FinalProject/FinProjStep1/seven_deg_decoder.v
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module seven_deg_decoder
+
+Top level modules:
+	seven_deg_decoder
+
+} {} {}} U:/CPRE281/FinalProject/FinProjStep1/FinProjStep1.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/FinalProject/FinProjStep1/FinProjStep1.v
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module FinProjStep1
+
+Top level modules:
+	FinProjStep1
+
+} {} {}}

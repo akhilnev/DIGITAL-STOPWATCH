@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Dec  5 03:16:10 2022
+Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Standard Edition
+Revision Name : FinProjT2
+Top-level Entity Name : FinProjT2
+Family : Cyclone IV E
+Total logic elements : 15
+    Total combinational functions : 15
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 11
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

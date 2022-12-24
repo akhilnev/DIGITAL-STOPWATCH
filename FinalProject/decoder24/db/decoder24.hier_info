@@ -1,0 +1,17 @@
+|decoder24
+en => y.OUTPUTSELECT
+en => y.OUTPUTSELECT
+en => y.OUTPUTSELECT
+en => y.OUTPUTSELECT
+a => always0.IN0
+a => always0.IN0
+a => always0.IN0
+b => always0.IN1
+b => always0.IN1
+b => always0.IN1
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

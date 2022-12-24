@@ -1,0 +1,32 @@
+# Compile of FinProjStep1.v was successful.
+# Compile of seven_deg_decoder.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.FinProjStep1 work.seven_deg_decoder
+# vsim -gui work.FinProjStep1 work.seven_deg_decoder 
+# Start time: 03:55:45 on Dec 04,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPRE281/FinalProject/FinProjStep1/FinProjStep1.v(130): Module 'clock_generator' is not defined.
+#  For instance 'b2v_inst2003' at path 'FinProjStep1'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 03:55:51 on Dec 04,2022, Elapsed time: 0:00:06
+# Errors: 1, Warnings: 5
+vsim -gui work.seven_deg_decoder
+# vsim -gui work.seven_deg_decoder 
+# Start time: 03:56:16 on Dec 04,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.seven_deg_decoder(fast)
+vsim -gui work.FinProjStep1
+# End time: 03:57:16 on Dec 04,2022, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 1
+# vsim -gui work.FinProjStep1 
+# Start time: 03:57:16 on Dec 04,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPRE281/FinalProject/FinProjStep1/FinProjStep1.v(130): Module 'clock_generator' is not defined.
+#  For instance 'b2v_inst2003' at path 'FinProjStep1'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 03:57:22 on Dec 04,2022, Elapsed time: 0:00:06
+# Errors: 1, Warnings: 1

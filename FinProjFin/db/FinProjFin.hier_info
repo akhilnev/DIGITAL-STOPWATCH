@@ -1,0 +1,1969 @@
+|FinProjFin
+Out00 <= sev_bit_mux:inst267.Out0
+Reset => FinProjStep1:inst.Reset
+Reset => FinProjT2:inst28.Reset
+Reset => minute_decoder:inst29.Reset
+Reset => FinProjT2:inst30.Reset
+Start => FinProjStep1:inst.Start
+Start => FinProjT2:inst28.Start
+Start => minute_decoder:inst29.Start
+Start => FinProjT2:inst30.Start
+Clock => FinProjStep1:inst.Clock
+Clock => clock_generator:inst206.CLK_IN
+Clock => clock_generator:inst266.CLK_IN
+Clock => clock_generator:inst89.CLK_IN
+Clock => clock_generator:inst146.CLK_IN
+OutputSelect => sev_bit_mux:inst267.Select
+OutputSelect => sev_bit_mux:inst268.Select
+OutputSelect => sev_bit_mux:inst269.Select
+OutputSelect => sev_bit_mux:inst270.Select
+Select2 => MUX41:inst6.S0
+Select2 => decoder24:inst1.b
+Select2 => MUX41:inst7.S0
+Select2 => MUX41:inst8.S0
+Select2 => MUX41:inst9.S0
+Select2 => MUX41:inst10.S0
+Select2 => MUX41:inst11.S0
+Select2 => MUX41:inst12.S0
+Select2 => MUX41:inst27.S0
+Select2 => MUX41:inst91.S0
+Select2 => MUX41:inst92.S0
+Select2 => MUX41:inst93.S0
+Select2 => MUX41:inst95.S0
+Select2 => MUX41:inst147.S0
+Select2 => MUX41:inst148.S0
+Select2 => MUX41:inst13.S0
+Select2 => MUX41:inst14.S0
+Select2 => MUX41:inst15.S0
+Select2 => MUX41:inst18.S0
+Select2 => MUX41:inst16.S0
+Select2 => MUX41:inst17.S0
+Select2 => MUX41:inst19.S0
+Select2 => MUX41:inst20.S0
+Select2 => MUX41:inst21.S0
+Select2 => MUX41:inst22.S0
+Select2 => MUX41:inst25.S0
+Select2 => MUX41:inst23.S0
+Select2 => MUX41:inst24.S0
+Select2 => MUX41:inst26.S0
+Enable => inst150.IN0
+Select1 => decoder24:inst1.a
+Select1 => MUX41:inst6.S1
+Select1 => MUX41:inst7.S1
+Select1 => MUX41:inst8.S1
+Select1 => MUX41:inst9.S1
+Select1 => MUX41:inst10.S1
+Select1 => MUX41:inst11.S1
+Select1 => MUX41:inst12.S1
+Select1 => MUX41:inst27.S1
+Select1 => MUX41:inst91.S1
+Select1 => MUX41:inst92.S1
+Select1 => MUX41:inst93.S1
+Select1 => MUX41:inst95.S1
+Select1 => MUX41:inst147.S1
+Select1 => MUX41:inst148.S1
+Select1 => MUX41:inst13.S1
+Select1 => MUX41:inst14.S1
+Select1 => MUX41:inst15.S1
+Select1 => MUX41:inst18.S1
+Select1 => MUX41:inst16.S1
+Select1 => MUX41:inst17.S1
+Select1 => MUX41:inst19.S1
+Select1 => MUX41:inst20.S1
+Select1 => MUX41:inst21.S1
+Select1 => MUX41:inst22.S1
+Select1 => MUX41:inst25.S1
+Select1 => MUX41:inst23.S1
+Select1 => MUX41:inst24.S1
+Select1 => MUX41:inst26.S1
+Out01 <= sev_bit_mux:inst267.Out1
+Out02 <= sev_bit_mux:inst267.Out2
+Out06 <= sev_bit_mux:inst267.Out6
+Out03 <= sev_bit_mux:inst267.Out3
+Out05 <= sev_bit_mux:inst267.Out5
+Out04 <= sev_bit_mux:inst267.Out4
+Out10 <= sev_bit_mux:inst268.Out0
+Out11 <= sev_bit_mux:inst268.Out1
+Out12 <= sev_bit_mux:inst268.Out2
+Out13 <= sev_bit_mux:inst268.Out3
+Out14 <= sev_bit_mux:inst268.Out4
+Out15 <= sev_bit_mux:inst268.Out5
+Out16 <= sev_bit_mux:inst268.Out6
+Out20 <= sev_bit_mux:inst269.Out0
+Out21 <= sev_bit_mux:inst269.Out1
+Out22 <= sev_bit_mux:inst269.Out2
+Out23 <= sev_bit_mux:inst269.Out3
+Out24 <= sev_bit_mux:inst269.Out4
+Out25 <= sev_bit_mux:inst269.Out5
+Out26 <= sev_bit_mux:inst269.Out6
+Out30 <= sev_bit_mux:inst270.Out0
+Out31 <= sev_bit_mux:inst270.Out1
+Out32 <= sev_bit_mux:inst270.Out2
+Out33 <= sev_bit_mux:inst270.Out3
+Out34 <= sev_bit_mux:inst270.Out4
+Out35 <= sev_bit_mux:inst270.Out5
+Out36 <= sev_bit_mux:inst270.Out6
+
+
+|FinProjFin|sev_bit_mux:inst267
+Out0 <= 21mux:inst.Out
+Di0 => 21mux:inst.0
+Select => 21mux:inst.S
+Select => 21mux:inst1.S
+Select => 21mux:inst2.S
+Select => 21mux:inst3.S
+Select => 21mux:inst4.S
+Select => 21mux:inst5.S
+Select => 21mux:inst6.S
+La0 => 21mux:inst.1
+Out1 <= 21mux:inst1.Out
+Di1 => 21mux:inst1.0
+La1 => 21mux:inst1.1
+Out2 <= 21mux:inst2.Out
+Di2 => 21mux:inst2.0
+La2 => 21mux:inst2.1
+Out3 <= 21mux:inst3.Out
+Di3 => 21mux:inst3.0
+La3 => 21mux:inst3.1
+Out4 <= 21mux:inst4.Out
+Di4 => 21mux:inst4.0
+La4 => 21mux:inst4.1
+Out5 <= 21mux:inst5.Out
+Di5 => 21mux:inst5.0
+La5 => 21mux:inst5.1
+Out6 <= 21mux:inst6.Out
+Di6 => 21mux:inst6.0
+La6 => 21mux:inst6.1
+
+
+|FinProjFin|sev_bit_mux:inst267|21mux:inst
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst267|21mux:inst1
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst267|21mux:inst2
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst267|21mux:inst3
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst267|21mux:inst4
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst267|21mux:inst5
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst267|21mux:inst6
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|FinProjStep1:inst
+A <= seven_deg_decoder:inst1.A
+Clock => clock_generator:inst2003.CLK_IN
+Start => inst5.IN1
+Start => inst9.IN0
+Reset => inst15.IN0
+B <= seven_deg_decoder:inst1.B
+C <= seven_deg_decoder:inst1.C
+D <= seven_deg_decoder:inst1.D
+E <= seven_deg_decoder:inst1.E
+F <= seven_deg_decoder:inst1.F
+G <= seven_deg_decoder:inst1.G
+TenSecFlag <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FinProjFin|FinProjStep1:inst|seven_deg_decoder:inst1
+W => Decoder0.IN3
+X => Decoder0.IN2
+Y => Decoder0.IN1
+Z => Decoder0.IN0
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FinProjFin|FinProjStep1:inst|clock_generator:inst2003
+CLK_OUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => clock_divider_1024:inst.CLK_IN
+
+
+|FinProjFin|FinProjStep1:inst|clock_generator:inst2003|clock_divider_1024:inst8
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|FinProjFin|FinProjStep1:inst|clock_generator:inst2003|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|FinProjFin|MUX41:inst6
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|clock_generator:inst206
+CLK_OUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => clock_divider_1024:inst.CLK_IN
+
+
+|FinProjFin|clock_generator:inst206|clock_divider_1024:inst8
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|FinProjFin|clock_generator:inst206|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|FinProjFin|21mux:inst151
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|decoder24:inst1
+en => y[3].IN1
+en => y[3].OUTPUTSELECT
+en => y[2].OUTPUTSELECT
+en => y[1].OUTPUTSELECT
+en => y[0].OUTPUTSELECT
+a => always0.IN0
+a => always0.IN0
+a => always0.IN0
+a => always0.IN0
+b => always0.IN1
+b => always0.IN1
+b => always0.IN1
+b => always0.IN1
+y[0] <= y[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FinProjFin|clock_generator:inst266
+CLK_OUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => clock_divider_1024:inst.CLK_IN
+
+
+|FinProjFin|clock_generator:inst266|clock_divider_1024:inst8
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|FinProjFin|clock_generator:inst266|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|FinProjFin|21mux:inst211
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|clock_generator:inst89
+CLK_OUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => clock_divider_1024:inst.CLK_IN
+
+
+|FinProjFin|clock_generator:inst89|clock_divider_1024:inst8
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|FinProjFin|clock_generator:inst89|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|FinProjFin|21mux:inst31
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|clock_generator:inst146
+CLK_OUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => clock_divider_1024:inst.CLK_IN
+
+
+|FinProjFin|clock_generator:inst146|clock_divider_1024:inst8
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|FinProjFin|clock_generator:inst146|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|FinProjFin|21mux:inst86
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst7
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst153
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst213
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst33
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst88
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst8
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst155
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst215
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst35
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst94
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst9
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst157
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst217
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst37
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst97
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst10
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst159
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst219
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst39
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst99
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst11
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst161
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst221
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst41
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst101
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst12
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst199
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst259
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst79
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst139
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst268
+Out0 <= 21mux:inst.Out
+Di0 => 21mux:inst.0
+Select => 21mux:inst.S
+Select => 21mux:inst1.S
+Select => 21mux:inst2.S
+Select => 21mux:inst3.S
+Select => 21mux:inst4.S
+Select => 21mux:inst5.S
+Select => 21mux:inst6.S
+La0 => 21mux:inst.1
+Out1 <= 21mux:inst1.Out
+Di1 => 21mux:inst1.0
+La1 => 21mux:inst1.1
+Out2 <= 21mux:inst2.Out
+Di2 => 21mux:inst2.0
+La2 => 21mux:inst2.1
+Out3 <= 21mux:inst3.Out
+Di3 => 21mux:inst3.0
+La3 => 21mux:inst3.1
+Out4 <= 21mux:inst4.Out
+Di4 => 21mux:inst4.0
+La4 => 21mux:inst4.1
+Out5 <= 21mux:inst5.Out
+Di5 => 21mux:inst5.0
+La5 => 21mux:inst5.1
+Out6 <= 21mux:inst6.Out
+Di6 => 21mux:inst6.0
+La6 => 21mux:inst6.1
+
+
+|FinProjFin|sev_bit_mux:inst268|21mux:inst
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst268|21mux:inst1
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst268|21mux:inst2
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst268|21mux:inst3
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst268|21mux:inst4
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst268|21mux:inst5
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst268|21mux:inst6
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|FinProjT2:inst28
+A <= seven_deg_decoder:inst1.A
+Clock => inst.CLK
+Clock => inst2.CLK
+Clock => inst3.CLK
+Clock => inst4.CLK
+Start => inst5.IN1
+Start => inst9.IN0
+Reset => inst15.IN0
+B <= seven_deg_decoder:inst1.B
+C <= seven_deg_decoder:inst1.C
+D <= seven_deg_decoder:inst1.D
+E <= seven_deg_decoder:inst1.E
+F <= seven_deg_decoder:inst1.F
+G <= seven_deg_decoder:inst1.G
+TenSecFlag <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FinProjFin|FinProjT2:inst28|seven_deg_decoder:inst1
+W => Decoder0.IN3
+X => Decoder0.IN2
+Y => Decoder0.IN1
+Z => Decoder0.IN0
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FinProjFin|MUX41:inst27
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst163
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst223
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst43
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst103
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst91
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst165
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst225
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst45
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst105
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst92
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst167
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst227
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst47
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst107
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst93
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst169
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst229
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst49
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst109
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst95
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst171
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst231
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst51
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst111
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst147
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst173
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst233
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst53
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst113
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst148
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst201
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst261
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst81
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst141
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst269
+Out0 <= 21mux:inst.Out
+Di0 => 21mux:inst.0
+Select => 21mux:inst.S
+Select => 21mux:inst1.S
+Select => 21mux:inst2.S
+Select => 21mux:inst3.S
+Select => 21mux:inst4.S
+Select => 21mux:inst5.S
+Select => 21mux:inst6.S
+La0 => 21mux:inst.1
+Out1 <= 21mux:inst1.Out
+Di1 => 21mux:inst1.0
+La1 => 21mux:inst1.1
+Out2 <= 21mux:inst2.Out
+Di2 => 21mux:inst2.0
+La2 => 21mux:inst2.1
+Out3 <= 21mux:inst3.Out
+Di3 => 21mux:inst3.0
+La3 => 21mux:inst3.1
+Out4 <= 21mux:inst4.Out
+Di4 => 21mux:inst4.0
+La4 => 21mux:inst4.1
+Out5 <= 21mux:inst5.Out
+Di5 => 21mux:inst5.0
+La5 => 21mux:inst5.1
+Out6 <= 21mux:inst6.Out
+Di6 => 21mux:inst6.0
+La6 => 21mux:inst6.1
+
+
+|FinProjFin|sev_bit_mux:inst269|21mux:inst
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst269|21mux:inst1
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst269|21mux:inst2
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst269|21mux:inst3
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst269|21mux:inst4
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst269|21mux:inst5
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst269|21mux:inst6
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|minute_decoder:inst29
+A <= seven_deg_decoder:inst1.A
+Clock => inst.CLK
+Clock => inst2.CLK
+Clock => inst3.CLK
+Clock => inst4.CLK
+Start => inst5.IN1
+Start => inst9.IN0
+Reset => inst15.IN0
+B <= seven_deg_decoder:inst1.B
+C <= seven_deg_decoder:inst1.C
+D <= seven_deg_decoder:inst1.D
+E <= seven_deg_decoder:inst1.E
+F <= seven_deg_decoder:inst1.F
+G <= seven_deg_decoder:inst1.G
+TenSecFlag <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FinProjFin|minute_decoder:inst29|seven_deg_decoder:inst1
+W => Decoder0.IN3
+X => Decoder0.IN2
+Y => Decoder0.IN1
+Z => Decoder0.IN0
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FinProjFin|MUX41:inst13
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst175
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst235
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst55
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst115
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst14
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst177
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst237
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst57
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst117
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst15
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst179
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst239
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst59
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst119
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst18
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst181
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst241
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst61
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst121
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst16
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst183
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst243
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst63
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst123
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst17
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst185
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst245
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst65
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst125
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst19
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst203
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst263
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst83
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst143
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst270
+Out0 <= 21mux:inst.Out
+Di0 => 21mux:inst.0
+Select => 21mux:inst.S
+Select => 21mux:inst1.S
+Select => 21mux:inst2.S
+Select => 21mux:inst3.S
+Select => 21mux:inst4.S
+Select => 21mux:inst5.S
+Select => 21mux:inst6.S
+La0 => 21mux:inst.1
+Out1 <= 21mux:inst1.Out
+Di1 => 21mux:inst1.0
+La1 => 21mux:inst1.1
+Out2 <= 21mux:inst2.Out
+Di2 => 21mux:inst2.0
+La2 => 21mux:inst2.1
+Out3 <= 21mux:inst3.Out
+Di3 => 21mux:inst3.0
+La3 => 21mux:inst3.1
+Out4 <= 21mux:inst4.Out
+Di4 => 21mux:inst4.0
+La4 => 21mux:inst4.1
+Out5 <= 21mux:inst5.Out
+Di5 => 21mux:inst5.0
+La5 => 21mux:inst5.1
+Out6 <= 21mux:inst6.Out
+Di6 => 21mux:inst6.0
+La6 => 21mux:inst6.1
+
+
+|FinProjFin|sev_bit_mux:inst270|21mux:inst
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst270|21mux:inst1
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst270|21mux:inst2
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst270|21mux:inst3
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst270|21mux:inst4
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst270|21mux:inst5
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|sev_bit_mux:inst270|21mux:inst6
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|FinProjT2:inst30
+A <= seven_deg_decoder:inst1.A
+Clock => inst.CLK
+Clock => inst2.CLK
+Clock => inst3.CLK
+Clock => inst4.CLK
+Start => inst5.IN1
+Start => inst9.IN0
+Reset => inst15.IN0
+B <= seven_deg_decoder:inst1.B
+C <= seven_deg_decoder:inst1.C
+D <= seven_deg_decoder:inst1.D
+E <= seven_deg_decoder:inst1.E
+F <= seven_deg_decoder:inst1.F
+G <= seven_deg_decoder:inst1.G
+TenSecFlag <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FinProjFin|FinProjT2:inst30|seven_deg_decoder:inst1
+W => Decoder0.IN3
+X => Decoder0.IN2
+Y => Decoder0.IN1
+Z => Decoder0.IN0
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FinProjFin|MUX41:inst20
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst187
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst247
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst67
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst127
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst21
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst189
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst249
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst69
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst129
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst22
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst191
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst251
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst71
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst131
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst25
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst193
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst253
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst73
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst133
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst23
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst195
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst255
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst75
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst135
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst24
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst197
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst257
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst77
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst137
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|MUX41:inst26
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FinProjFin|21mux:inst205
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst265
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst85
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|FinProjFin|21mux:inst145
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+

@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Out0",
+					"strict" : false
+				},
+				{
+					"name" : "Out1",
+					"strict" : false
+				},
+				{
+					"name" : "Out2",
+					"strict" : false
+				},
+				{
+					"name" : "Out3",
+					"strict" : false
+				},
+				{
+					"name" : "Out4",
+					"strict" : false
+				},
+				{
+					"name" : "Out5",
+					"strict" : false
+				},
+				{
+					"name" : "Out6",
+					"strict" : false
+				},
+				{
+					"name" : "La0",
+					"strict" : false
+				},
+				{
+					"name" : "Di0",
+					"strict" : false
+				},
+				{
+					"name" : "Select",
+					"strict" : false
+				},
+				{
+					"name" : "La1",
+					"strict" : false
+				},
+				{
+					"name" : "Di1",
+					"strict" : false
+				},
+				{
+					"name" : "La2",
+					"strict" : false
+				},
+				{
+					"name" : "Di2",
+					"strict" : false
+				},
+				{
+					"name" : "La3",
+					"strict" : false
+				},
+				{
+					"name" : "Di3",
+					"strict" : false
+				},
+				{
+					"name" : "La4",
+					"strict" : false
+				},
+				{
+					"name" : "Di4",
+					"strict" : false
+				},
+				{
+					"name" : "La5",
+					"strict" : false
+				},
+				{
+					"name" : "Di5",
+					"strict" : false
+				},
+				{
+					"name" : "La6",
+					"strict" : false
+				},
+				{
+					"name" : "Di6",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

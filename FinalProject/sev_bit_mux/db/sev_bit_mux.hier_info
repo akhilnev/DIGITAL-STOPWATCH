@@ -1,0 +1,87 @@
+|sev_bit_mux
+Out0 <= 21mux:inst.Out
+Di0 => 21mux:inst.0
+Select => 21mux:inst.S
+Select => 21mux:inst1.S
+Select => 21mux:inst2.S
+Select => 21mux:inst3.S
+Select => 21mux:inst4.S
+Select => 21mux:inst5.S
+Select => 21mux:inst6.S
+La0 => 21mux:inst.1
+Out1 <= 21mux:inst1.Out
+Di1 => 21mux:inst1.0
+La1 => 21mux:inst1.1
+Out2 <= 21mux:inst2.Out
+Di2 => 21mux:inst2.0
+La2 => 21mux:inst2.1
+Out3 <= 21mux:inst3.Out
+Di3 => 21mux:inst3.0
+La3 => 21mux:inst3.1
+Out4 <= 21mux:inst4.Out
+Di4 => 21mux:inst4.0
+La4 => 21mux:inst4.1
+Out5 <= 21mux:inst5.Out
+Di5 => 21mux:inst5.0
+La5 => 21mux:inst5.1
+Out6 <= 21mux:inst6.Out
+Di6 => 21mux:inst6.0
+La6 => 21mux:inst6.1
+
+
+|sev_bit_mux|21mux:inst
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|sev_bit_mux|21mux:inst1
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|sev_bit_mux|21mux:inst2
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|sev_bit_mux|21mux:inst3
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|sev_bit_mux|21mux:inst4
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|sev_bit_mux|21mux:inst5
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+
+|sev_bit_mux|21mux:inst6
+Out <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst2.IN0
+1 => inst.IN1
+0 => inst1.IN0
+
+

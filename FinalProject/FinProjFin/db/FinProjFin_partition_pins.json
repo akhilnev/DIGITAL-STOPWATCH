@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Out00",
+					"strict" : false
+				},
+				{
+					"name" : "Out01",
+					"strict" : false
+				},
+				{
+					"name" : "Out02",
+					"strict" : false
+				},
+				{
+					"name" : "Out06",
+					"strict" : false
+				},
+				{
+					"name" : "Out03",
+					"strict" : false
+				},
+				{
+					"name" : "Out05",
+					"strict" : false
+				},
+				{
+					"name" : "Out04",
+					"strict" : false
+				},
+				{
+					"name" : "Out10",
+					"strict" : false
+				},
+				{
+					"name" : "Out11",
+					"strict" : false
+				},
+				{
+					"name" : "Out12",
+					"strict" : false
+				},
+				{
+					"name" : "Out13",
+					"strict" : false
+				},
+				{
+					"name" : "Out14",
+					"strict" : false
+				},
+				{
+					"name" : "Out15",
+					"strict" : false
+				},
+				{
+					"name" : "Out16",
+					"strict" : false
+				},
+				{
+					"name" : "Out20",
+					"strict" : false
+				},
+				{
+					"name" : "Out21",
+					"strict" : false
+				},
+				{
+					"name" : "Out22",
+					"strict" : false
+				},
+				{
+					"name" : "Out23",
+					"strict" : false
+				},
+				{
+					"name" : "Out24",
+					"strict" : false
+				},
+				{
+					"name" : "Out25",
+					"strict" : false
+				},
+				{
+					"name" : "Out26",
+					"strict" : false
+				},
+				{
+					"name" : "Out30",
+					"strict" : false
+				},
+				{
+					"name" : "Out31",
+					"strict" : false
+				},
+				{
+					"name" : "Out32",
+					"strict" : false
+				},
+				{
+					"name" : "Out33",
+					"strict" : false
+				},
+				{
+					"name" : "Out34",
+					"strict" : false
+				},
+				{
+					"name" : "Out35",
+					"strict" : false
+				},
+				{
+					"name" : "Out36",
+					"strict" : false
+				},
+				{
+					"name" : "Select2",
+					"strict" : false
+				},
+				{
+					"name" : "Select1",
+					"strict" : false
+				},
+				{
+					"name" : "OutputSelect",
+					"strict" : false
+				},
+				{
+					"name" : "Enable",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Start",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
